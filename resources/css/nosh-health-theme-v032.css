@@ -1,0 +1,86 @@
+/* NOSH CRM Saude v0.3.2 - Identidade Visual Oficial */
+:root{
+  --bg:#F4F8F6;
+  --surface:#FFFFFF;
+  --surface-2:#EAF4EF;
+  --text:#17332B;
+  --muted:#61766D;
+  --line:#D9E5DF;
+  --primary:#0F5C4D;
+  --primary-2:#0B493D;
+  --shadow:0 14px 40px rgba(15,64,54,.09);
+}
+
+body,.main-column{background:var(--bg)}
+.sidebar{background:#0D4036;color:#DDEDE7}
+.brand-mark{background:#E0F3EC;color:#0F5C4D}
+.brand span{color:#A9C9BE}
+.nav-item{color:#C2D8D0}
+.nav-item:hover,.nav-item.active{background:rgba(255,255,255,.11);color:#FFFFFF}
+.sidebar-card{background:rgba(255,255,255,.055);border-color:rgba(255,255,255,.13)}
+.sidebar-card small{color:#A7C3B9}
+
+.topbar{background:rgba(255,255,255,.94);border-bottom-color:#D9E5DF}
+.topbar-copy strong,.page-heading h1,.panel-head h2{color:#17332B}
+.eyebrow{color:#64897D}
+.page-heading p,.cell-sub,.appointment-info p{color:#61766D}
+
+.btn-primary{background:#0F5C4D;border-color:#0F5C4D;box-shadow:0 8px 20px rgba(15,92,77,.20)}
+.btn-primary:hover{background:#0B493D;border-color:#0B493D}
+.btn:focus-visible,.icon-btn:focus-visible{outline:3px solid rgba(46,139,115,.20);outline-offset:2px}
+.input{background:#FCFEFD;border-color:#D9E5DF;color:#17332B}
+.input:focus{border-color:#6BB19E;box-shadow:0 0 0 3px rgba(15,92,77,.10)}
+
+.metric-card,.panel{border-color:#D9E5DF;box-shadow:0 12px 32px rgba(15,64,54,.07)}
+.metric-icon,.date-box,.appointment-date{background:#EAF4EF;color:#0F5C4D}
+.text-link,.panel-head a,.score{color:#0F5C4D}
+.mini-avatar,.avatar{background:#E1F0EA;color:#0F5C4D}
+
+.badge-active,.badge-confirmed,.badge-won,.badge-completed,.task-status-done{background:#DFF1E9;color:#176B55}
+.badge-prospect,.badge-scheduled,.badge-qualified,.badge-proposal{background:#E9EEF9;color:#465B93}
+.badge-inactive,.badge-cancelled,.badge-lost,.badge-no_show{background:#F8E7E7;color:#9E4848}
+.flash{background:#E4F3ED;border-color:#C8E3D8;color:#175C4B}
+
+/* Centro de notificacoes: contraste reforcado */
+.notification-trigger{background:#FFFFFF;border-color:#CFE0D8;color:#426C60;box-shadow:0 4px 12px rgba(15,64,54,.05)}
+.notification-trigger:hover,.notification-trigger[aria-expanded="true"]{background:#EAF4EF;color:#0F5C4D;border-color:#AFCFC3}
+.notification-trigger:focus-visible{outline:3px solid rgba(46,139,115,.22);outline-offset:2px}
+.notification-badge{background:#D55252;color:#FFFFFF;border-color:#FFFFFF;font-size:9px;font-weight:800}
+.notification-popup{background:#FFFFFF;border-color:#CFE0D8;box-shadow:0 26px 70px rgba(8,49,39,.24)}
+.notification-popup-head{background:#F7FBF9;border-bottom-color:#D9E5DF}
+.notification-popup-head strong{color:#17332B}
+.notification-popup-head>div .eyebrow{color:#5E8176}
+.notification-popup-head>span{background:#E3F1EA;color:#0F5C4D;border:1px solid #CDE2D9}
+.notification-summary{background:#F2F7F4;border-bottom-color:#D9E5DF}
+.notification-summary span{background:#FFFFFF;border-color:#D4E3DC;color:#426458;font-size:9px}
+.notification-list{background:#F7FAF8}
+.notification-item{background:#EEF7F2 !important;color:#17332B !important;border-bottom:1px solid #D8E8E0 !important}
+.notification-item:nth-child(even){background:#F5FAF7 !important}
+.notification-item:hover{background:#E3F1EA !important}
+.notification-item-icon{background:#DCECE4;color:#0F5C4D;border:1px solid #CBE1D7}
+.notification-item-body strong{color:#17332B !important;font-weight:750}
+.notification-item-body>span{color:#4F6B60 !important;font-size:10px}
+.notification-item-body small{color:#6B8178 !important;font-size:9px}
+.notification-item.priority-high{background:#FFF8E8 !important}
+.notification-item.priority-high:hover{background:#FFF1D1 !important}
+.notification-item.priority-high .notification-item-icon{background:#F8E8BD;color:#855F0E;border-color:#EBD699}
+.notification-item.priority-urgent{background:#FCEEEE !important}
+.notification-item.priority-urgent:hover{background:#F9E0E0 !important}
+.notification-item.priority-urgent .notification-item-icon{background:#F6D9D9;color:#A24444;border-color:#EFC4C4}
+.notification-empty,.notification-loading{background:#FFFFFF;color:#61766D}
+.notification-empty strong{color:#17332B}
+.notification-popup-foot{background:#F2F7F4;border-top-color:#D9E5DF;color:#647C73}
+
+/* Kanban e cards de apoio */
+.kanban-column{background:#E8F0ED}
+.lead-card{border-color:#D5E3DD;box-shadow:0 6px 18px rgba(15,64,54,.06)}
+.score-chip{background:#DFF0E9;color:#0F5C4D}
+.timeline-item{background:#FCFEFD;border-color:#E0EAE5}
+.task-item{border-bottom-color:#E4ECE8}
+.priority-normal{background:#6E9F90}
+.priority-low{background:#A8C7BE}
+
+@media(max-width:760px){
+  .content{background:#F4F8F6}
+  .notification-popup{border-color:#CFE0D8}
+}
