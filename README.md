@@ -51,6 +51,55 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Security Vulnerabilities
 
+
+# Nosh CRM Saúde
+
+Sistema de gestão desenvolvido para centralizar e organizar processos relacionados ao atendimento e gerenciamento de informações na área da saúde.
+
+## 📋 Sobre o projeto
+
+O Nosh CRM Saúde tem como objetivo fornecer uma plataforma para gerenciamento de informações, atendimentos, pacientes e processos administrativos, permitindo maior organização e controle das operações.
+
+O projeto foi desenvolvido com uma arquitetura organizada e preparada para evolução contínua.
+
+## ✨ Funcionalidades
+
+- 👥 Gestão de pacientes
+- 📋 Gestão de informações e cadastros
+- 🏥 Gestão de atendimentos
+- 📅 Organização de processos e atividades
+- 🔐 Autenticação e controle de acesso
+- 📊 Gestão e visualização de informações
+- ⚙️ Configurações do sistema
+- 🗂️ Organização dos dados em um ambiente centralizado
+
+## 🛠️ Tecnologias
+
+- PHP
+- Laravel
+- Banco de dados relacional
+- HTML
+- CSS
+- JavaScript
+
+## 📁 Estrutura do projeto
+
+```text
+nosh-crm-saude/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── tests/
+├── .env.example
+├── artisan
+├── composer.json
+└── README.md
+
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
